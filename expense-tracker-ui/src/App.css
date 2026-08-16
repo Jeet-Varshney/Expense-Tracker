@@ -1,0 +1,86 @@
+.app {
+  display: flex;
+}
+
+aside {
+  width: 240px;
+  height: 100vh;
+  padding: 20px;
+  background-color: #111827;
+  color: white;
+}
+
+main {
+  padding: 30px;
+  height: 100vh;
+  flex: 1;
+}
+
+body {
+  margin: 0;
+  background-color: #2f93f7;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+  padding: 12px;
+}
+
+nav a:hover {
+  background-color: #374151;
+}
+
+aside h2 {
+  margin-bottom: 30px;
+}
+
+main h1 {
+  font-size: 32px;
+}
+
+main p {
+  color: #000000;
+}
+
+.summary-cards {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  flex: 1;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.card h3{
+  margin: 0;
+  font-size: 16px;
+}
+
+.card p {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.transactions {
+  background-color:white;
+  padding:10px;
+  border-radius: 12px;
+}
+
+.transaction {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #e5e7eb;
+  color:#000000;
+}
